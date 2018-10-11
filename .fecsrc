@@ -1,0 +1,27 @@
+{
+    "eslint": {
+        "env": {
+            "node": true,
+            "browser": true,
+            "es6": true
+        },
+        "rules": {
+            "no-console": 0,
+            "fecs-esnext-ext": ["js", "jsx", "es", "san", "vue"]
+        },
+        "globals": {
+            Box
+        }
+    },
+    "htmlcs": {
+        "max-len": 120,
+        "tagname-lowercase": false,
+        "tag-pair": false,
+        "attr-lowercase": false,
+        "nest": false,
+        "img-alt": false,
+        "img-width-height": false,
+        "label-for-input": false,
+        "button-type": false
+    }
+}

@@ -1,0 +1,111 @@
+<template>
+    <div class="app-main">
+        <layout-Header v-if="layout.header"></layout-Header>
+        <div class="wrapper">
+            <layout-Sidebar class="sidebar"></layout-Sidebar>
+            <div id="container" class="container">
+                <router-view class="main"></router-view>
+                <layout-Footer v-if="layout.footer"></layout-Footer>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+/**
+ * @file 熊掌号app
+ * @author Bend
+ * @update 2018-09-17
+*/
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
+import {mapState} from 'vuex';
+
+// 登录形式的页面，此类页面有特殊样式
+export default {
+    name: 'app',
+    components: {
+        'layout-Header': Header,
+        'layout-Footer': Footer,
+        'layout-Sidebar': Sidebar
+    },
+    computed: {
+        ...mapState({
+            layout: state => state.layout
+        })
+    }
+};
+</script>
+
+<style scoped lang="stylus">
+
+noScrollBar()
+    -ms-overflow-style none
+    &::-webkit-scrollBar
+        display none
+    &::-ms-scrollBar
+        display none
+    &:-ms-scrollBar
+        display none
+    &::-o-scrollBar
+        display none
+    &::scrollBar
+        display none
+    &:scrollBar
+        display none
+
+.app-main
+    position relative
+    height 100%
+
+    .wrapper
+        display flex
+        size 100% 100%
+        margin 0 auto
+        overflow hidden
+
+        // 对左侧菜单reset
+        .sidebar
+            size calc(210px + (100% - 1216px) / 2) calc(100% - 80px)
+            background inherit
+            overflow-y auto
+            margin-top 80px
+            box-sizing border-box
+            padding 25px 0 30px calc((100% - 1216px) / 2)
+            noScrollBar()
+
+        .container
+            size calc(1022px + (100% - 1216px) / 2) calc(100% - 80px)
+            margin-top 80px
+            box-sizing border-box
+            padding 24px calc((100% - 1216px) / 2) 24px 24px
+            overflow-y auto
+
+            .main
+                min-height 500px
+                width 982px
+                clearfix()
+
+        .select
+            width 100%
+            margin 80px 0
+
+        .autofit
+            width 100%
+            margin 0 auto
+
+    .autofit
+       width 100%
+       margin 0 auto
+ 
+    .wrapper-login
+        // height 100%
+        min-width 1200px
+        background #fff
+        overflow-x hidden
+
+        .container
+            text-align center
+            margin-bottom 10px
+
+</style>
