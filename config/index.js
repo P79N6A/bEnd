@@ -15,7 +15,6 @@ module.exports = {
     build: {
         env: require('./prod.env'),
         index: path.resolve(__dirname, '../dist/template/site/home.tpl'),
-        zhengwu: path.resolve(__dirname, '../dist/template/site/zhengwu.tpl'),
         assetsRoot: path.resolve(__dirname, '../dist/webroot/'),
         assetsSubDirectory: 'static',
         assetsPublicPath: '/site/',

@@ -18,7 +18,6 @@ node build/build.js
 
 echo '--------------------- end build ---------------------'
 cp -fr dist/* $CURRENT_PATH/output
-mv ./output/webroot/favicon.ico ./output/webroot/static
 
 (cd output && tar cvzf $APP_NAME.tar.gz ./*)
 rm -fr output/template output/webroot dist/*

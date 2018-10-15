@@ -13,8 +13,6 @@ cp -fr dist/* $CURRENT_PATH/output
 # cp v3Jump.html ./output/webroot/static
 # cp update.html ./output/webroot/static
 
-mv ./output/webroot/favicon.ico ./output/webroot/static
-
 (cd output && tar cvzf $APP_NAME.tar.gz ./*)
 rm -fr output/template output/webroot dist/*
 
