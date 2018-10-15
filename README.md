@@ -1,4 +1,4 @@
-# 熊掌号平台
+# Bend
 
 > Build Setup
 
