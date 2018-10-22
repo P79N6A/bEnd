@@ -1,4 +1,4 @@
-# Bend
+# bEnd
 
 > Build Setup
 
