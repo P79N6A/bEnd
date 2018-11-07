@@ -1,14 +1,14 @@
 <template>
     <div class="setting">
         <PageTitle title="setting"></PageTitle>
-        <div class="pagebox">Bend 设置</div>
+        <div class="pagebox">bEnd 设置</div>
     </div>
 </template>
 
 <script>
 /**
  * @file 熊掌号设置页面
- * @author Bend
+ * @author bEnd
 */
 
 export default {

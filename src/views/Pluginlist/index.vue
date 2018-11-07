@@ -45,7 +45,7 @@
 <script>
 /**
  * @file PluginList 插件市场
- * @author Bend
+ * @author bEnd
 */
 import Util from '../../utils/util';
 

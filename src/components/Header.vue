@@ -17,8 +17,8 @@
 
 <script>
 /**
- * @file Bend header
- * @author Bend
+ * @file bEnd header
+ * @author bEnd
 */
 
 import {mapState} from 'vuex';
@@ -47,7 +47,7 @@ export default {
 
     .logo        
         .icon
-            width 100px
+            width 150px
             vertical-align middle
 
     .user

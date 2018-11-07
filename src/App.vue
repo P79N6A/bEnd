@@ -13,7 +13,7 @@
 <script>
 /**
  * @file 熊掌号app
- * @author Bend
+ * @author bEnd
  * @update 2018-09-17
 */
 import Header from './components/Header';
@@ -38,22 +38,6 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-
-noScrollBar()
-    -ms-overflow-style none
-    &::-webkit-scrollBar
-        display none
-    &::-ms-scrollBar
-        display none
-    &:-ms-scrollBar
-        display none
-    &::-o-scrollBar
-        display none
-    &::scrollBar
-        display none
-    &:scrollBar
-        display none
-
 .app-main
     position relative
     height 100%
@@ -66,24 +50,22 @@ noScrollBar()
 
         // 对左侧菜单reset
         .sidebar
-            size calc(210px + (100% - 1216px) / 2) calc(100% - 80px)
+            size 210px auto
             background inherit
             overflow-y auto
             margin-top 80px
             box-sizing border-box
-            padding 25px 0 30px calc((100% - 1216px) / 2)
-            noScrollBar()
+            padding 25px
 
         .container
-            size calc(1022px + (100% - 1216px) / 2) calc(100% - 80px)
+            flex 1
             margin-top 80px
             box-sizing border-box
-            padding 24px calc((100% - 1216px) / 2) 24px 24px
+            padding 24px
             overflow-y auto
 
             .main
                 min-height 500px
-                width 982px
                 clearfix()
 
         .select
@@ -99,7 +81,6 @@ noScrollBar()
        margin 0 auto
  
     .wrapper-login
-        // height 100%
         min-width 1200px
         background #fff
         overflow-x hidden

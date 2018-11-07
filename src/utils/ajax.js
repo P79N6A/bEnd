@@ -1,6 +1,6 @@
 /**
  * @file ajax.js
- * @author Bend
+ * @author bEnd
  */
 import Vue from 'vue';
 import axios from 'axios/dist/axios.min.js';

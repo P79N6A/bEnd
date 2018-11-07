@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="main">
             <p class="line">
-                &copy;{{new Date().getFullYear()}} Bend
+                &copy;{{new Date().getFullYear()}} bEnd
             </p>
         </div>
     </div>
@@ -10,7 +10,7 @@
 
 <script>
 /**
- * @author Bend
+ * @author bEnd
  * @file footer
 */
 

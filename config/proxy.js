@@ -1,6 +1,6 @@
 /**
  * @file proxy.js
- * @author Bend
+ * @author bEnd
  */
 
 module.exports = {

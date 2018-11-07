@@ -1,6 +1,6 @@
 /**
  * @file Store list
- * @author Bend
+ * @author bEnd
  */
 'use strict';
 import Account from './Account';

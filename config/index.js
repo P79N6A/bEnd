@@ -1,6 +1,6 @@
 /**
  * @file index.js
- * @author Bend
+ * @author bEnd
  */
 
 'use strict';

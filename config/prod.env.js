@@ -1,6 +1,6 @@
 /**
  * @file prod.env.js
- * @author Bend
+ * @author bEnd
  */
 
 'use strict';

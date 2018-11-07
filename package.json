@@ -1,8 +1,8 @@
 {
-    "name": "Bend",
+    "name": "bEnd",
     "version": "0.0.1",
-    "description": "Bend",
-    "author": "Bend",
+    "description": "bEnd",
+    "author": "bEnd",
     "private": true,
     "scripts": {
         "dev": "node build/dev-server.js",

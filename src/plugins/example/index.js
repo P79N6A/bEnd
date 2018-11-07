@@ -1,6 +1,6 @@
 /**
 * @file 熊掌号组件入口文件
-* @author Bend
+* @author bEnd
 * @desc 假设开发的组件名称为example，请按照以下要求创建“index.js”文件放到组件根目录
 */
 import xzsdk from '@baidu/xzsdk';

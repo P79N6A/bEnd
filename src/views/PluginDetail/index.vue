@@ -55,7 +55,7 @@
 /**
  * @file PluginDetail.vue
  * @desc 组件详情
- * @author Bend
+ * @author bEnd
 */
 
 import xzsdk from '@baidu/xzsdk';

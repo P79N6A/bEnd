@@ -1,7 +1,7 @@
 /**
  * @file test.js 信息修改
  * @desc api test
- * @author Bend
+ * @author bEnd
 */
 
 module.exports = function () {

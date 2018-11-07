@@ -1,13 +1,13 @@
 /**
  * @file Menu 左侧菜单 store
- * @author Bend
+ * @author bEnd
  */
 'use strict';
 import $http from '../../utils/ajax';
 
 let authConfig = {
-    // 给首页、设置、添加插件默认添加权限，标识为'bend'
-    bend: true
+    // 给首页、设置、添加插件默认添加权限，标识为'bEnd'
+    bEnd: true
 };
 
 export default {

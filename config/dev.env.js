@@ -1,6 +1,6 @@
 /**
  * @file dev.env.js
- * @author Bend
+ * @author bEnd
  */
 
 'use strict';

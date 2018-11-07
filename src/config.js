@@ -1,6 +1,6 @@
 /**
  * @file config.js
- * @author Bend
+ * @author bEnd
  * @desc 插件依赖配置
  */
 

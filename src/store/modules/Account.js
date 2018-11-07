@@ -1,7 +1,7 @@
 /**
  * @file Account.js
  * @desc 用户账号信息
- * @author Bend
+ * @author bEnd
  */
 'use strict';
 let pageData = window._pageData || {};

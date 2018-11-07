@@ -5,7 +5,7 @@
 <script>
 /**
  * @file 首页
- * @author Bend
+ * @author bEnd
 */
 export default {
     name: 'Home'

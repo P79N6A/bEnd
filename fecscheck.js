@@ -1,7 +1,7 @@
 /**
  * @file fecscheck.js
  * @description fecs检测文件
- * @author Bend
+ * @author bEnd
  */
 
 /* eslint-disable */

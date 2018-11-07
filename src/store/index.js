@@ -1,6 +1,6 @@
 /**
  * @file store
- * @author Bend
+ * @author bEnd
  */
 'use strict';
 import Vue from 'vue';

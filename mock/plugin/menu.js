@@ -1,7 +1,7 @@
 /**
  * @file list.js 异步菜单api
  * @desc api plugin list
- * @author Bend
+ * @author bEnd
  */
 
 module.exports = function (req, res, next) {
@@ -27,7 +27,7 @@ module.exports = function (req, res, next) {
             ps: 14,
             pluginList: [{
                 categoryId: 7,
-                name: '插件',
+                name: '即插即用',
                 avatar: 'http://www.ld12.com/upimg358/allimg/c150617/143452O0515030-31O50.jpg',
                 pluginId: 4,
                 routerName: 'example',

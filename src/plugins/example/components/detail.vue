@@ -6,7 +6,7 @@
 <script>
 /**
  * @file 示例详情页面
- * @author Bend
+ * @author bEnd
 */
 export default {
     name: 'detail'

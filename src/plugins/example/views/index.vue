@@ -1,15 +1,16 @@
 <template>
     <div class="example">
-        <PageTitle title="example"></PageTitle>
+        <PageTitle title="插件名称"></PageTitle>
         <div class="pagebox plugin">
-            Bend插件
+            <span>bEnd业务插件</span>
+            <img src="./bend.png">
         </div>
     </div>
 </template>
 <script>
 /**
  * @file example 内容分析页面入口 迁移自运营平台
- * @author Bend
+ * @author bEnd
  */
 
 export default {
@@ -24,4 +25,8 @@ export default {
     
     .plugin
         min-height 450px
+        text-align center
+
+        img
+            width 100%
 </style>

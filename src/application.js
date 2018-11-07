@@ -1,6 +1,6 @@
 /**
  * @file application core
- * @author Bend
+ * @author bEnd
  * @update 2018.08.24
  */
 'use strict';

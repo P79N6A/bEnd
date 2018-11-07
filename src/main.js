@@ -1,6 +1,6 @@
 /**
  * @file main.js
- * @author Bend
+ * @author bEnd
  */
 'use strict';
 
@@ -19,6 +19,7 @@ import store from './store';
 import router from './router';
 import config from './config';
 import application from './application';
+import './assets/img/favicon.ico';
 
 // 将当前环境透传给sdk
 window._isProduction = process.env.NODE_ENV === 'production';

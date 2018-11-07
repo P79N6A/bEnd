@@ -12,7 +12,7 @@
 <script>
 /**
  * @file NotFound 错误页
- * @author Bend
+ * @author bEnd
 */
 export default {
     name: 'NotFound',
